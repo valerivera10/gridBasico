@@ -15,28 +15,72 @@ body {
     grid-template-rows: repeat(9, 1fr);
     grid-gap: 8px;
     grid-template-areas: 
-        "menu menu menu menu menu menu menu menu menu menu menu menu"
-        "notification notification notification notification sales sales sales sales sales sales balance balance"
-        "notification notification notification notification sales sales sales sales sales sales balance balance"
+    "menu menu menu menu menu menu menu menu menu menu menu menu"     
+    "notification notification notification notification sales sales sales sales sales sales balance balance"     
+    "notification notification notification notification sales sales sales sales sales sales balance balance"     
+    "week week week week sales sales sales sales sales sales balance balance"     
+    "week week week week sales sales sales sales sales sales devs devs"     
+    "week week week week sales sales sales sales sales sales devs devs"     
+    "product product product product product timeline timeline timeline timeline timeline timeline timeline"     
+    "product product product product product timeline timeline timeline timeline timeline timeline timeline"     
+    "product product product product product timeline timeline timeline timeline timeline timeline timeline"
 
     ;
     width: 800px;
     height: 600px;
-    margin: 75px auto;
+    margin: 15px auto;
     background: var(--color-secundary);
     border: 1px solid var(--color-primary);
     border-radius: 5px;
+    box-shadow: var(--color-shadows);
 }
 
 .container div {
     background: var(--color-secundary);
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.item_1 {
+    display: flex;
+    background-color: gray;
+    grid-area: menu;
+}
+
+.item_2 {
+    display: flex;
+    background-color: orange;
+    grid-area: notification;
+}
+
+.item_3 {
+    background-color: pink;
+    grid-area: sales;
+}
+
+.item_4 {
+    background-color: red;
+    grid-area: week;
+}
+
+.item_5 {
+    background-color: blanchedalmond;
+    grid-area: balance;
+}
+
+.item_6 {
+    background-color: gray;
+    grid-area: devs;
+}
+
+.item_7 {
+    background-color: purple;
+    grid-area: product;
+}
+
+.item_8 {
+    background-color: rgb(240, 73, 73);
+    grid-area: timeline;
 }
 @media (width > 600px){
-    .container {
-        width: 100%;
-        margin: 0;
-        height: 100vh;
-        background: red;
-    }
+    
 }
