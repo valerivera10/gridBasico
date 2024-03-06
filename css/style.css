@@ -93,7 +93,7 @@ body {
 
 .item_2 {
     display: flex;
-    background-color: #2cd4e0;
+    background-color: #8ef7ff;
     grid-area: notification;
 }
 
@@ -101,19 +101,65 @@ body {
     background-color: rgb(255, 255, 255);
     grid-area: sales;
 }
-
+.graf3 img {
+    position: relative;
+    display: flex;
+    top: 200px;
+    right: -32px;
+    grid-area: 50%;
+    height: 85%;
+    width: 85%;
+}
 .item_4 {
     background-color: rgb(255, 255, 255);
     grid-area: week;
+}
+.texto4 {
+    margin: 10px;
+}
+.precio4 {
+    margin: 10px;
+}
+.img4 img {
+    height: 100px;
+    width: 250px;
+    margin: 10px;
 }
 
 .item_5 {
     background-color: rgb(255, 255, 255);
     grid-area: balance;
 }
+.textoCaja1 {
+    margin:10px ;
+    font-size: 15px;
+}
+.caja1-precio {
+    margin: 9px;
+    font-size: 12px;
+}
+.caja2 {
+    background-color: rgb(135, 255, 135);
+}
+.textocaja2 {
+    margin: 10px;
+    font-size: 12px;
+}
 
+.number {
+    margin: 5px;
+    font-size: 14px;
+}
+.textocaja3 {
+    margin: 7px;
+    font-size: 12px;
+}
+.precio3 {
+    margin: 7px;
+    font-size: 14px;
+}
 .item_6 {
-    background-color: rgb(59, 248, 75);
+    background-color: rgb(212, 255, 132);
     grid-area: devs;
 }
 
@@ -125,6 +171,11 @@ body {
 .item_8 {
     background-color: rgb(255, 255, 255);
     grid-area: timeline;
+}
+
+.item_8 img {
+    width: 100%;
+    max-height: 100%;
 }
 @media (width > 600px){
     
