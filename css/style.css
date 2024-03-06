@@ -35,50 +35,95 @@ body {
     box-shadow: var(--color-shadows);
 }
 
-.container div {
-    background: var(--color-secundary);
-    border-radius: 10px;
+.caja1-izq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.caja1-izq a{
+    text-decoration: none;
+    flex-direction: row;
+    color: black;
+    margin: 5px;
+    font-size: 15px;
+}
+.search {
+    margin: 3px;
+}
+
+.caja1-der {
+    display: flex;
+    background: linear-gradient(to right, #2cd4e0, #1eff1e); 
+    border: 1px solid #000; 
+    align-items: center;
+    width: 500px;
+    height: 60px;
+}
+.caja1-der i {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+.yo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.yo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.caja1-der img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: flex-start;
+}
+
 
 .item_1 {
     display: flex;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     grid-area: menu;
 }
 
 .item_2 {
     display: flex;
-    background-color: orange;
+    background-color: #2cd4e0;
     grid-area: notification;
 }
 
 .item_3 {
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     grid-area: sales;
 }
 
 .item_4 {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     grid-area: week;
 }
 
 .item_5 {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     grid-area: balance;
 }
 
 .item_6 {
-    background-color: gray;
+    background-color: rgb(59, 248, 75);
     grid-area: devs;
 }
 
 .item_7 {
-    background-color: purple;
+    background-color: rgb(255, 255, 255);
     grid-area: product;
 }
 
 .item_8 {
-    background-color: rgb(240, 73, 73);
+    background-color: rgb(255, 255, 255);
     grid-area: timeline;
 }
 @media (width > 600px){
