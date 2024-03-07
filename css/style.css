@@ -50,6 +50,12 @@ body {
 .search {
     margin: 3px;
 }
+#lupa{
+    position: absolute;
+    left: 575px;
+    top: 40px;
+}
+
 
 .caja1-der {
     display: flex;
@@ -58,6 +64,7 @@ body {
     align-items: center;
     width: 500px;
     height: 60px;
+    border-radius: 5%;
 }
 .caja1-der i {
     display: flex;
@@ -67,6 +74,11 @@ body {
     margin: 8px;
 }
 
+bx bx-message-alt-minus,
+bx bxs-bell {
+    position: absolute;
+    top: 500px;
+}
 .yo {
     display: flex;
     justify-content: flex-end;
@@ -76,6 +88,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    position: relative;
+    right: -200px;
+}
+
+.yo2 img {
+    display: flex;
+    position: absolute;
+    right: -55px;
 }
 .caja1-der img {
     width: 30px;
@@ -87,32 +107,76 @@ body {
 
 .item_1 {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: menu;
+    border-radius: 10%;
 }
 
 .item_2 {
     display: flex;
     background-color: #8ef7ff;
     grid-area: notification;
+    border-radius: 15%;
 }
 
+.horaC2 {
+    margin: 10px;
+    font-size: 14px;
+}
+.puntos {
+    position: relative;
+    top: -5px;
+    right: -10px;
+}
+.Project {
+    margin: 10px;
+    font-size: 8px;
+}
 .item_3 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: sales;
+    border-radius: 15%;
+}
+.titulo3 {
+    display: flex;
+    margin: 15px;
+    font-size: 12px;
+}
+.año {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    top: -40px;
+    right: 20px;
+}
+.Yearly {
+    margin: 20px;
+    font-size: -20px;
+    color: grey;
+}
+.precioCaja3 {
+    margin: 15px;
+    font-size:14px ;
+}
+.precio2 {
+    margin: 15px;
+    font-size: 10px;
+    color:rgb(207, 255, 136) ;
 }
 .graf3 img {
     position: relative;
     display: flex;
-    top: 200px;
+    top: -17px;
     right: -32px;
     grid-area: 50%;
     height: 85%;
     width: 85%;
 }
 .item_4 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: week;
+    border-radius: 15%;
 }
 .texto4 {
     margin: 10px;
@@ -121,14 +185,15 @@ body {
     margin: 10px;
 }
 .img4 img {
-    height: 100px;
+    height: 80px;
     width: 250px;
     margin: 10px;
 }
 
 .item_5 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: balance;
+    border-radius: 15%;
 }
 .textoCaja1 {
     margin:10px ;
@@ -161,16 +226,38 @@ body {
 .item_6 {
     background-color: rgb(212, 255, 132);
     grid-area: devs;
+    border-radius: 15%;
 }
+.hora {
+    display: flex;
+    margin: 8px;
+}
+.Devs {
+    margin:7px;
+    font-size: 12px;
+}
+.boton {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 345px;
+    right: 300px;
 
+}
 .item_7 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: product;
+    border-radius: 15%;
 }
 
+.todo7 {
+    margin: 20px;
+    line-height: 30px
+}
 .item_8 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 247);
     grid-area: timeline;
+    border-radius: 15%;
 }
 
 .item_8 img {
